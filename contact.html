@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>A.M. Web Designs-Contact Me</title>
+        <meta name="description" content="">
+
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+
+        <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
+
+        <meta name="viewport" content="width=device-width">
+        <link href='http://fonts.googleapis.com/css?family=Rosario:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2.mv2sa.custom.min.js"></script>
+
+        <!--[if lt IE 9]>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <![endif]-->
+        <!--[if gte IE 9]><!-->
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.0.min.js"><\/script>')</script>
+        <!--<![endif]-->
+       
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/contact.js"></script>
+    </head>
+    <body>
+        <h1 id="title">
+            <img src="img/logo-title.png" alt="Logo Title">
+        </h1>
+        <header id="headerWrapper">
+                <a id="headerMobile" href="#" alt="Mobile Button">
+                    &#8801;
+                </a>
+                <h1 id="mobileTitle">
+                    <img src="img/logo-title-mobile.png" alt="Mobile Logo Title">
+                </h1>
+                <menu id="mainMenu" class="JQueryClear">
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Contact Me
+                        </a>
+                    </li>
+            </menu>
+        </header>
+        <div id="globalBackToTop">
+            <a href="#backToTop">
+            </a>
+        </div>
+        <main>
+            <article class="ap-wrapper">
+                <div>
+                    <div class="cm-form">
+                        <form id="cm-emailForm" action="contact.php" method="POST">
+                            <fieldset>
+                                <h3>Send Me An Email</h3>
+                                <!--[if lte IE 9]>
+                                    <label for="name" class="cu-labelIE9">Name:</label>
+                                <![endif]-->
+                                <input type="text" name="name" placeholder="Name" class="cm-field" />
+                                <!--[if lte IE 9]>
+                                    <label for="email" class="cu-labelIE9">E-mail:</label>
+                                <![endif]-->
+                                <input name="email" type="email" placeholder="Email" class="cm-field" />
+                                <!--[if lte IE 9]>
+                                    <label for="subject" class="cu=labelIE9">Subject:</label>
+                                <![endif]-->
+                                <input name="subject" type="subject" placeholder="Subject" class="cm-field" />
+                                <h4><label for="message">Message</label></h4>
+                                <textarea type="text" name="message" value="Message" rows="7" cols="50"></textarea>
+                                <div class="cm-emailBtn">
+                                    <input type="submit" value="Send Message" id="cm-send" class="cm-button" /> 
+                                    <input type="submit" value="Reset" id="cm-reset" class="cm-button" />
+                            </fieldset>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <footer class="footer">
+            <div class="footernav">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+              </ul>
+            </div>
+            <p class="footerCopy">
+                <span>&copy;</span>Copyright 2014
+            </p>
+        </footer>
+    </body>
+</html>
